@@ -17,13 +17,13 @@ import { useDispatch } from "react-redux";
 import { openSendMessage } from "./config/mailSlice";
 
 function Sidebar() {
-    const dispatch=useDispatch();
+  const dispatch = useDispatch();
   return (
     <div className="sidebar">
       <Button
         startIcon={<AddIcon fontsize="large" />}
         className="sidebar_compose"
-        onClick={()=> dispatch(openSendMessage())}
+        onClick={() => dispatch(openSendMessage())}
       >
         Compose
       </Button>

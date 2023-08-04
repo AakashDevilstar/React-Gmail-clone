@@ -1,15 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import { Provider, useSelector } from 'react-redux';
-import { selectmail } from './config/mailSlice';
-import store from './config/store';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import { Provider, useSelector } from "react-redux";
+import { selectmail } from "./config/mailSlice";
+import store from "./config/store";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <App/>
+    <App />
   </Provider>
 );
 
