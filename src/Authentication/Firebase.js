@@ -9,6 +9,7 @@ import 'firebase/compat/firestore';
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
+  // authDomain: "gmail-clone-aakash.onrender.com",
   authDomain: "clone-1e7b1.firebaseapp.com",
   projectId: "clone-1e7b1",
   storageBucket: "clone-1e7b1.appspot.com",
